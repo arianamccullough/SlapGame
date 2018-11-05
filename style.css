@@ -4,6 +4,7 @@ padding-top: 30px;
 .main-text{
   color: rgb(252, 252, 155);
   font-family: 'Creepster';
+  text-shadow: 2px, 2px, black
 }
 
 .page{

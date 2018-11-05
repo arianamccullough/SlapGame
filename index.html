@@ -29,56 +29,58 @@
     </div>
     <div class="row main-text">
       <div class="col-12 d-flex justify-content-center">
-        <h2>HP:<span id="hp">100</span>
+        <h2>HP:<span id="hp">100</span></h2>
       </div>
     </div>
     <div class="row">
       <div class="col-4 d-flex justify-content-center">
         <h5 class="main-text">
-          You were walking in the woods alone, scavenging for acorns as you always do, when suddenly, you hear
+          You are walking in the woods alone, scavenging for acorns as you always do, when suddenly you hear
           something rustle in the leaves nearby. You are approached by none other than the formidable and infamous
-          Beast of the Woods. </h5>
+          Beast of the Woods... </h5>
+        <br>
       </div>
       <div class="col-4 d-flex justify-content-start">
-        <img src="https://i.gifer.com/4b7P.gif">
+        <img src="https://i.gifer.com/4b7P.gif" id="beastPic">
       </div>
-      <div class="col-4 d-flex justify-content-end main-text">
+      <div class="col-4 d-flex justify-content-center main-text">
         <h5>
-          Use the buttons below
+          Instructions: Use the buttons below
           to try to appease
-          or defeat The Beast. Good Luck! (and goodbye!
-          Mwahahahaha)
+          or defeat The Beast. Good Luck!
         </h5>
       </div>
     </div>
     <div class="row pb-2">
-      <div class="col-12 d-flex justify-content-center">
+      <div class="col-12 d-flex justify-content-center pb-5">
         <button onclick="attack(1)" class="btn btn-lg main-text btn-dark mr-1"><i class="fas fa-tint fas-5x"></i>Spray
-          Bottle</button>
+          Bottle (-1 pt)</button>
         <button onclick="attack(5)" class="btn btn-lg main-text btn-dark mr-1"><i class="fas fa-dog fas-5x"></i>Call
-          Dog</button>
+          Dog (-5 pts)</button>
         <button onclick="attack(10)" class=" btn btn-lg main-text btn-dark mr-1"><i class="fas fa-music fas-5x"></i>
           Killer
           Guitar
-          Solo</button>
+          Solo (-10 pts)</button>
         <button onclick="modifier(1)" class="btn btn-lg main-text btn-dark mr-1"><i class="fas fa-cookie-bite fas-5x"></i>Feed
           it
-          Cookies</button>
+          Cookies (+1 pt)</button>
         <button onclick="modifier(5)" class="btn btn-lg main-text btn-dark mr-1"><i class="fas fa-money-bill-wave-alt fas-5x"></i>Give
-          it money</button>
-        <button onclick="modifier(20)" class="btn btn-lg main-text btn-dark"><i class="fas fa-sad-tear fas-5x"></i>Cry</button>
+          it money (+5 pts)</button>
+        <button onclick="modifier(20)" class="btn btn-lg main-text btn-dark"><i class="fas fa-sad-tear fas-5x"></i>Cry
+          (+20 pts)</button>
+
       </div>
     </div>
     <div class="row">
-      <div class="col-12 d-flex justify-content-center pb-2">
+      <div class="col-12 d-flex justify-content-center pb-5">
         <button onclick="reset(0)" class="btn btn-lg main-text btn-success"><i class="fas fa-redo fas-5x"></i>Reset</button>
       </div>
     </div>
   </div>
+  <audio autoplay loop>
+    <source src="assets/occasion02.mp3" allow="autoplay" type="audio/mpeg">
+  </audio>
+  <script src="app.js"></script>
 </body>
-<audio autoplay loop>
-  <iframe src="assets/occasion02.mp3" allow="autoplay" type="mp3">
-</audio>
-<script src="app.js"></script>
 
 </html>
