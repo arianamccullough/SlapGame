@@ -1,0 +1,17 @@
+.title{
+padding-top: 30px;
+}
+.main-text{
+  color: rgb(252, 252, 155);
+  font-family: 'Creepster';
+}
+
+.page{
+  background-image: url("/assets/road.png");
+}
+
+img{
+  height: 185px;
+margin-bottom: 50px;
+margin-top: 125px;
+}
